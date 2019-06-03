@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "429573539365",
+    "firebase_url": "https://vittouristguide.firebaseio.com",
+    "project_id": "vittouristguide",
+    "storage_bucket": "vittouristguide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429573539365:android:7dee9c5453899b60",
+        "android_client_info": {
+          "package_name": "com.example.vittouristguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429573539365-0vh9856671jvkd4phpv9d8ku7hh1ceed.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vittouristguide",
+            "certificate_hash": "7ffb9923c1c6209116d173ce61183b63c450b128"
+          }
+        },
+        {
+          "client_id": "429573539365-fu8h909bbh98o5p4d8157a9k9j6uq9sr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnkbwkhaIp0P0pi7zT2zgOZsTJsq63pXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429573539365-fu8h909bbh98o5p4d8157a9k9j6uq9sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

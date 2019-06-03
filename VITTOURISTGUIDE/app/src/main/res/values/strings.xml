@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">VIT TOURIST GUIDE</string>
+    <string name="academic_block">Academic Block</string>
+    <string name="mens_hostel">Mens Hostel</string>
+    <string name="womens_hostel">Womens Hostel</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="g">G</string>
+    <string name="h">H</string>
+    <string name="j">J</string>
+    <string name="k">K</string>
+    <string name="l">L</string>
+    <string name="m">M</string>
+    <string name="n">N</string>
+    <string name="p">P</string>
+    <string name="q">Q</string>
+    <string name="event">event</string>
+    <string name="enter_your_email_id">Enter your Email ID</string>
+    <string name="password">Password</string>
+    <string name="sign_up">sign up</string>
+    <string name="sign_in_to_now_about_the_events">Sign in to now about the events</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up1">Sign up</string>
+    <string name="register">register</string>
+    <string name="name_of_the_club">Name of the Club</string>
+
+
+    <string name="password1">password1</string>
+    <string name="passwordand">password</string>
+    <string name="club_chapter_name">Club/Chapter Name</string>
+    <string name="teacher_coordinator">Teacher Coordinator</string>
+    <string name="submit">Submit</string>
+    <string name="submitdfdfsf">Submit</string>
+    <string name="look_for_the_events">look for the events</string>
+</resources>
