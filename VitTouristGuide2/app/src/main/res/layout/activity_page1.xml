@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page1">
+
+    <ImageView
+        android:id="@+id/ac"
+        android:layout_width="155dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="571dp"
+        android:alpha="0"
+        android:onClick="acadmey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/acadmeics" />
+
+    <ImageView
+        android:id="@+id/men"
+        android:layout_width="158dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="379dp"
+        android:alpha="0"
+        android:onClick="mens"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ac"
+        app:layout_constraintVertical_bias="0.129"
+        app:srcCompat="@drawable/mens" />
+
+    <ImageView
+        android:id="@+id/women"
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="168dp"
+        android:alpha="0"
+        android:onClick="Womens"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/men"
+        app:srcCompat="@drawable/women" />
+
+    <ImageView
+        android:id="@+id/events"
+        android:layout_width="158dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="124dp"
+        android:alpha="0"
+        android:onClick="events"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/women"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/event" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="387dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="3dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/where_you_want_to_go_today"
+        android:textAlignment="center"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/women"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/men"
+        app:layout_constraintVertical_bias="0.746" />
+</android.support.constraint.ConstraintLayout>
