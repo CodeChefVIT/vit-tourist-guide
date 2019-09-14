@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    tools:context=".signin">
+
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="75dp"
+       android:layout_marginTop="220dp"
+       app:cardCornerRadius="50dp"
+       app:cardBackgroundColor="@android:color/transparent">
+
+       <EditText
+           android:layout_width="279dp"
+           android:layout_height="63dp"
+           android:drawableLeft="@drawable/group"
+           android:hint="USERNAME"
+           android:id="@+id/usernameid"
+
+            />
+   </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="50dp"
+        app:cardBackgroundColor="@android:color/transparent">
+
+        <EditText
+            android:layout_width="279dp"
+            android:layout_height="63dp"
+            android:drawableLeft="@drawable/lock"
+            android:hint="PASSWORD"
+            android:inputType="textPassword"
+            android:id="@+id/passwordid"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        app:cardBackgroundColor="@android:color/holo_orange_dark"
+        app:cardCornerRadius="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:onClick="signin"
+            android:text="Signin"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+        <Button
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/transparent"
+            android:text="Don't have an account?Register here"
+            android:onClick="register"
+
+            />
+
+
+
+</LinearLayout>
