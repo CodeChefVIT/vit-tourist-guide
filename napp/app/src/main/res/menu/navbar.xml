@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/direction" android:title="DIRECTION" android:icon="@drawable/ic_directions_black_24dp"></item>
+<item android:id="@+id/events" android:title="EVENTS" android:icon="@drawable/ic_event_available_black_24dp"></item>
+    <item android:id="@+id/SignIn" android:title="Sign In" android:icon="@drawable/accountcircle">
+    </item>
+
+</menu>
