@@ -51,7 +51,7 @@
         android:layout_gravity="center"
         android:orientation="horizontal">
 
-        <EditText
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -60,9 +60,9 @@
             android:gravity="center"
             android:fontFamily="@font/c"
             android:textSize="10dp"
-            ></EditText>
+            ></TextView>
 
-        <EditText
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -71,22 +71,22 @@
             android:gravity="center"
             android:textSize="10dp"
             android:fontFamily="@font/c"
-            ></EditText>
+            ></TextView>
 
 
     </LinearLayout>
 
-    <EditText
+    <TextView
+        android:id="@+id/sdate"
         android:layout_width="271dp"
-        android:layout_height="55dp"
+        android:layout_height="45dp"
         android:layout_gravity="center"
+        android:drawableLeft="@drawable/date"
+        android:fontFamily="@font/c"
         android:gravity="center"
         android:text="Start Date(dd/mm/yyyy)"
-        android:drawableLeft="@drawable/date"
-        android:id="@+id/sdate"
-        android:fontFamily="@font/c"
-        android:inputType="date"
-        ></EditText>
+
+        ></TextView>
 
     <EditText
         android:layout_width="271dp"

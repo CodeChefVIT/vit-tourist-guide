@@ -17,7 +17,9 @@ import android.location.LocationManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toolbar;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -53,6 +55,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
+        Toolbar toolbar=findViewById(R.id.toolbar);
+        setActionBar(toolbar);
+
+
+
+
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -87,6 +95,93 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getMenuInflater().inflate(R.menu.topbar,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        LatLng latLng;
+
+
+        switch(item.getItemId())
+        {
+            case R.id.A:
+                latLng=new LatLng(12.973203,79.157291);
+                mMap.addMarker(new MarkerOptions().position(latLng));
+                break;
+            case R.id.B:
+                latLng=new LatLng(12.974625,79.157473);
+                mMap.addMarker(new MarkerOptions().position(latLng));
+                break;
+            case R.id.C:
+                latLng=new LatLng(12.973203,79.157291);
+                mMap.addMarker(new MarkerOptions().position(latLng));
+                break;
+            case R.id.D:
+                latLng=new LatLng(12.973203,79.157291);
+                mMap.addMarker(new MarkerOptions().position(latLng));
+                break;
+            case R.id.E:
+                latLng=new LatLng(12.973203,79.157291);
+                mMap.addMarker(new MarkerOptions().position(latLng));
+                break;
+            case R.id.F:
+                latLng=new LatLng(12.973203,79.157291);
+                mMap.addMarker(new MarkerOptions().position(latLng));
+                break;
+            case R.id.G:
+                latLng=new LatLng(12.973203,79.157291);
+                mMap.addMarker(new MarkerOptions().position(latLng));
+                break;
+            case R.id.H:
+                latLng=new LatLng(12.973203,79.157291);
+                mMap.addMarker(new MarkerOptions().position(latLng));
+                break;
+            case R.id.J:
+                latLng=new LatLng(12.973203,79.157291);
+                mMap.addMarker(new MarkerOptions().position(latLng));
+                break;
+            case R.id.K:
+                latLng=new LatLng(12.973203,79.157291);
+                mMap.addMarker(new MarkerOptions().position(latLng));
+                break;
+            case R.id.L:
+                latLng=new LatLng(12.973203,79.157291);
+                mMap.addMarker(new MarkerOptions().position(latLng));
+                break;
+            case R.id.M:
+                latLng=new LatLng(12.973203,79.157291);
+                mMap.addMarker(new MarkerOptions().position(latLng));
+                break;
+            case R.id.N:
+                latLng=new LatLng(12.973203,79.157291);
+                mMap.addMarker(new MarkerOptions().position(latLng));
+                break;
+            case R.id.P:
+                latLng=new LatLng(12.973203,79.157291);
+                mMap.addMarker(new MarkerOptions().position(latLng));
+                break;
+            case R.id.Q:
+                latLng=new LatLng(12.973203,79.157291);
+                mMap.addMarker(new MarkerOptions().position(latLng));
+                break;
+
+
+
+        }
+
+
+
+
+
+
+        return super.onOptionsItemSelected(item);
+    }
 
     /**
      * Manipulates the map once available.
@@ -110,8 +205,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 mMap.clear();
 
                 LatLng sydney = new LatLng(location.getLatitude(), location.getLongitude());
-                mMap.addMarker(new MarkerOptions().position(sydney).title("Your Location"));
-                mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+                mMap.addMarker(new MarkerOptions().position(sydney));
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney,6.0f));
 
                 Geocoder geocoder=new Geocoder(getApplicationContext(), Locale.getDefault());
                 try {

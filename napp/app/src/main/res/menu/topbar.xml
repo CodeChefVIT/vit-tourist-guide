@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/men"
+        android:title="Mens Hostel"
+
+        >
+        <menu>
+            <item android:title="A"
+                android:id="@+id/A"></item>
+            <item android:title="B"
+                android:id="@+id/B"></item>
+            <item android:title="C"
+                android:id="@+id/C"></item>
+            <item android:title="D"
+                android:id="@+id/D"></item>
+            <item android:title="E"
+                android:id="@+id/E"></item>
+            <item android:title="F"
+                android:id="@+id/F"></item>
+            <item android:title="G"
+                android:id="@+id/G"></item>
+            <item android:title="H"
+                android:id="@+id/H"></item>
+            <item android:title="J"
+                android:id="@+id/J"></item>
+            <item android:title="K"
+                android:id="@+id/K"></item>
+            <item android:title="L"
+                android:id="@+id/L"></item>
+            <item android:title="M"
+                android:id="@+id/M"></item>
+            <item android:title="N"
+                android:id="@+id/N"></item>
+            <item android:title="P"
+                android:id="@+id/P"></item>
+            <item android:title="Q"
+                android:id="@+id/Q"></item>
+
+
+        </menu>
+
+    </item>
+
+
+    <item
+        android:id="@+id/academic"
+        android:title="Academic"
+
+        >
+        <menu>
+
+            <item android:title="Mahtama Gandhi Block"
+                android:id="@+id/MGB"></item>
+            <item android:title="Silver Jubllie Tower"
+                android:id="@+id/SJT"></item>
+            <item android:title="Technology Tower"
+                android:id="@+id/TT"></item>
+            <item android:title="SMV"
+                android:id="@+id/SMV"></item>
+            <item android:title="Library"
+                android:id="@+id/library"></item>
+            <item android:title="Main Block"
+                android:id="@+id/mb"></item>
+            <item android:title="GD Naidu"
+                android:id="@+id/GDN"></item>
+
+        </menu>
+    </item>
+    <item
+        android:title="Women Hostel"
+        android:id="@+id/women"
+        />
+
+</menu>
