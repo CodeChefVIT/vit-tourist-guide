@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">napp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">qKBpkve4COrqXLuOHUN6sf1xjJn0Y3KFbLXEhNeE</string>
+    <string name="back4app_client_key">AJtBlCo8tmy167nDoeiTWVgOrCwrjKFjjEANFcxL</string>
+</resources>

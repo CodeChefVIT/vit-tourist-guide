@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".eventadder">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:text="What event you would like to add?"
+        android:gravity="center"
+        android:fontFamily="@font/cland"
+        android:textSize="50dp"
+        >
+
+
+    </TextView>
+
+
+    <EditText
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@drawable/event"
+        android:fontFamily="@font/c"
+        android:id="@+id/eventname"
+        android:gravity="center"
+        android:text="EVENT NAME"
+        android:inputType="text"
+
+        ></EditText>
+
+    <EditText
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/venuename"
+        android:gravity="center"
+        android:text="VENUE NAME"
+        android:drawableLeft="@drawable/venue"
+        android:fontFamily="@font/c"></EditText>
+
+    <LinearLayout
+        android:layout_width="271dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Start Time(hh:mm)"
+            android:id="@+id/stime"
+            android:gravity="center"
+            android:fontFamily="@font/c"
+            android:textSize="10dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="End Time(hh:mm)"
+            android:id="@+id/etime"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:fontFamily="@font/c"
+            ></TextView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sdate"
+        android:layout_width="271dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/date"
+        android:fontFamily="@font/c"
+        android:gravity="center"
+        android:text="Start Date(dd/mm/yyyy)"
+
+        ></TextView>
+
+    <EditText
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed"
+        android:layout_gravity="center"
+        android:text="EVENT DISCRIPTION"
+        android:drawableLeft="@drawable/dis"
+        android:gravity="center"
+        android:fontFamily="@font/c"
+
+        ></EditText>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="237dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="80dp"
+        app:cardCornerRadius="20dp"
+        android:id="@+id/aevent"
+        app:cardBackgroundColor="@android:color/holo_orange_dark"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:text="Add Event"
+            android:fontFamily="@font/c"
+            android:onClick="add"
+
+            android:textSize="20dp"
+            ></Button>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
